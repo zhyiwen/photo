@@ -1,0 +1,258 @@
+.head{
+  position: absolute;
+  //border: 1px solid #444;
+  top: 134px;
+  right: 210px;
+  .face{
+    width: 129px;
+    height: 150px;
+    position: relative;
+    margin-top: 45px;
+    margin-right: 18px;
+    background: $m-face;
+    border-bottom-left-radius: 201%;
+    border-bottom-right-radius: 197%;
+    border-top-left-radius: 84%;
+    border-top-right-radius: 82%;
+    .eye{
+      position: absolute;
+      top: 52px;
+      left: 3px;
+      bottom: 72px;
+      right: 27px;
+      .eye-l{
+        position: absolute;
+        top: 14px;
+        left: 2px;
+        width: 26px;
+        height: 9px;
+        transform: rotate(-18deg);
+        border-top-left-radius: 201%;
+        border-top-right-radius: 197%;
+        border-bottom-left-radius: 84%;
+        border-bottom-right-radius: 82%;
+        background: $m-eye;
+      }
+      .eye-r{
+        position: absolute;
+        top: 4px;
+        right: 9px;
+        width: 30px;
+        height: 12px;
+        transform: rotate(5deg);
+        border-top-right-radius: 161%;
+        border-top-left-radius: 216%;
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 165%;
+        background: $m-eye;
+      }
+      .face-l{
+        position: absolute;
+        top: 17px;
+        left: 1px;
+        width: 36px;
+        height: 12px;
+        transform: rotate(-18deg);
+        border-radius: 50%;
+        border-top-left-radius: 5px;
+        background: $m-face;
+      }
+      .face-r{
+        position: absolute;
+        top: 9px;
+        right: 8px;
+        width: 35px;
+        height: 12px;
+        transform: rotate(-5deg);
+        border-radius: 10px;
+        background: $m-face;
+      }
+    }
+    .glasses{
+      position: absolute;
+      top: 39px;
+      left: -3px;
+      bottom: 62px;
+      right: 27px;
+      .glasses-l{
+        position: absolute;
+        top: 12px;
+        left: 0;
+        width: 40px;
+        height: 32px;
+        transform: rotate(-10deg);
+        border-top-left-radius: 30%;
+        border-top-right-radius: 30%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        background: transparent;
+        border: 1px solid $m-glasses;
+        border-top-width: 4px;
+      }
+      .glasses-r{
+        position: absolute;
+        top: 2px;
+        right: 7px;
+        width: 40px;
+        height: 32px;
+        transform: rotate(-9deg);
+        border-top-left-radius: 30%;
+        border-top-right-radius: 30%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        background: transparent;
+        border: 1px solid $m-glasses;
+        border-top-width: 4px;
+      }
+      .glasses-box{
+        position: absolute;
+        top: 10px;
+        left: 38px;
+        background: transparent;
+        width: 19px;
+        border-top: 4px solid $m-glasses;
+        height: 13px;
+        transform: rotate(-16deg);
+        border-top-left-radius: 138%;
+        border-top-right-radius: 179%;
+      }
+      .glasses-box-foot{
+        position: absolute;
+        right: -30px;
+        top: 9px;
+        height: 3px;
+        width: 35px;
+        transform: rotate(11deg);
+        background: $m-glasses;
+        &:after{
+          content: '';
+          position: absolute;
+          left: -10px;
+          top: -1px;
+          border: 7px solid transparent;
+          transform: rotate(6deg);
+          border-top-color: $m-glasses;
+        }
+      }
+    }
+    .nose{
+      position: absolute;
+      top: 74px;
+      left: 29px;
+      width: 44px;
+      height: 27px;
+      .nose1{}
+    }
+  }
+  .hair{
+    position: absolute;
+    right: 1px;
+    top: 0;
+    width: 150px;
+    height: 100px;
+    background: $m-hair;
+    border-top-left-radius: 225%;
+    border-top-right-radius: 301%;
+    border-bottom-right-radius: 92%;
+    .hair-l{
+      position: absolute;
+      bottom: -16px;
+      left: -12px;
+      width: 20px;
+      height: 75px;
+      background: $m-hair;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+    }
+    .hair-top{
+      position: absolute;
+      z-index: 20;
+      .hair1{
+        position: absolute;
+        top: 38px;
+        left: 0px;
+        background: $m-hair;
+        width: 25px;
+        height: 20px;
+        transform: rotate(4deg);
+        border-top-left-radius: 36px;
+        border-top-right-radius: 44px;
+        border-bottom-left-radius: 59px;
+      }
+      .hair2{
+        position: absolute;
+        top: 36px;
+        left: 22px;
+        background: $m-hair;
+        width: 49px;
+        height: 29px;
+        transform: rotate(21deg);
+        border-top-left-radius: 19px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 55px;
+      }
+      .hair3{
+        position: absolute;
+        top: 30px;
+        left: 64px;
+        background: $m-hair;
+        width: 48px;
+        height: 31px;
+        transform: rotate(37deg);
+        border-top-left-radius: 19px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 55px;
+      }
+      .hair4{
+        position: absolute;
+        top: 46px;
+        left: 61px;
+        background: $m-hair;
+        width: 16px;
+        height: 18px;
+        transform: rotate(90deg);
+      }
+      .hair5{
+        position: absolute;
+        top: 52px;
+        left: 85px;
+        background: $m-hair;
+        width: 72px;
+        height: 24px;
+        transform: rotate(78deg);
+        border-top-left-radius: 28px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 73px;
+        border-bottom-right-radius: 86px;
+      }
+    }
+  }
+  .ears{
+    .ears-l{
+      position: absolute;
+      top: 112px;
+      left: -2px;
+      width: 20px;
+      height: 44px;
+      border-radius: 50px;
+      background: $m-ears;
+      transform: rotate(-14deg);
+    }
+    .ears-r{
+      position: absolute;
+      top: 95px;
+      right: 2px;
+      width: 20px;
+      height: 44px;
+      border-bottom-left-radius: 93px;
+      border-bottom-right-radius: 100px;
+      border-top-left-radius: 149px;
+      border-top-right-radius: 70px;
+      background: #dfaf99;
+      transform: rotate(4deg);
+      background: $m-face;
+    }
+  }
+}

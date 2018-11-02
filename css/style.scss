@@ -1,0 +1,14 @@
+@import "alter";
+@import "woman/woman";
+@import "man/man";
+body,html{margin: 0; padding: 0;}
+.photo-content{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 820px;
+  margin-left: -410px;
+  border: 5px solid #444;
+  box-sizing: border-box;
+  min-height: 900px;
+}
